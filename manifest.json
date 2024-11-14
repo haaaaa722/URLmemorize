@@ -4,11 +4,14 @@
     "version":"1.0.0",
     "description":"URLを記憶します",
     "icons":{
-        "16":"img/icon_16.png",
-        "48":"img/icon_48.png",
-        "128":"img/icon_128.png"
+        "16":"images/icon_16.png",
+        "48":"images/icon_48.png",
+        "128":"images/icon_128.png"
     },
     "permissions":[
-        "contextMenus"
-    ]
+        "activeTab","scripting","contextMenus"
+    ],
+    "background":{
+        "service_worker":"background.js"
+    }
 }
