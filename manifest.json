@@ -3,6 +3,11 @@
     "name":"URLmemorize",
     "version":"1.0.0",
     "description":"URLを記憶します",
+    "icons":{
+        "16":"img/icon_16.png",
+        "48":"img/icon_48.png",
+        "128":"img/icon_128.png"
+    },
     "permissions":[
         "contextMenus"
     ]
