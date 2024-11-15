@@ -11,6 +11,11 @@
     "permissions":[
         "activeTab","scripting","contextMenus"
     ],
+    "action":{
+        "default_title":"URLmemorize",
+        "default_icon":"images/icon_48.png",
+        "default_popup":"files/popup.html"
+    },
     "background":{
         "service_worker":"src/background.js"
     }
