@@ -9,7 +9,7 @@
         "128":"images/icon_128.png"
     },
     "permissions":[
-        "activeTab","scripting","contextMenus"
+        "activeTab","scripting","contextMenus","storage"
     ],
     "action":{
         "default_title":"URLmemorize",
@@ -17,6 +17,6 @@
         "default_popup":"files/popup.html"
     },
     "background":{
-        "service_worker":"src/background.js"
+        "service_worker":"files/background.js"
     }
 }
