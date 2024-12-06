@@ -1,12 +1,13 @@
 body{
     width: 400px;
     margin: 0 auto;
+    background-color: #303030;
 }
 
 header{
     position: relative;
     height:40px;
-    background-color: green;
+    background-color: black;
 }
 
 #title{
@@ -14,6 +15,8 @@ header{
     margin: 0 auto;
     font-size: 30px;
     top: 0px;
+    font-family: cursive;
+    color: #ffffff;
 }
 
 #add{
@@ -28,19 +31,53 @@ header{
     border-radius: 50%;
     font-size: 30px;
     border: none;
+    background-color: green;
+    color: white;
+}
+
+#add:hover{
+    background-color: darkgreen;
+    transition: transform 1s;
+    transform: rotate(360deg);
 }
 
 .urls{
-    display: block;
-    padding: 10px;
-    margin: 0;
-    border: 2px solid blue;
-    border-radius: 5px;
+    font-size: 12px;
+    width: 350px;
     text-decoration: none;
     color: black;
+    height: auto;
 }
 
-.urls:hover{
-    background-color: #f0f0f0;
-    border-color: darkblue;
+.url-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.url-item:hover{
+    background-color: darkgray;
+}
+
+.delete-btn {
+    position:active;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: crimson;
+    color: white;
+}
+.delete-btn:hover {
+    background-color: #a00020;
 }
