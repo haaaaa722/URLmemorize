@@ -1,4 +1,46 @@
 body{
-    width: 280px;
-    height: 210px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+header{
+    position: relative;
+    height:40px;
+    background-color: green;
+}
+
+#title{
+    position: absolute;
+    margin: 0 auto;
+    font-size: 30px;
+    top: 0px;
+}
+
+#add{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 5px;
+    top: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 30px;
+    border: none;
+}
+
+.urls{
+    display: block;
+    padding: 10px;
+    margin: 0;
+    border: 2px solid blue;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.urls:hover{
+    background-color: #f0f0f0;
+    border-color: darkblue;
 }
